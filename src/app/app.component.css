@@ -1,0 +1,17 @@
+.myContainer{
+  display: grid;
+  max-width: 562px;
+  background: #f0f8ff;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+.myRow{
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.centerText{
+  text-align: center;
+}

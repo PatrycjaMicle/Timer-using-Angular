@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Assignment4';
+
+  gameTime: number=0;
+  gameTimeArr:number[]=[];
+
+
+  receiveGameTime($event:number) {
+    this.gameTime = $event;
+    this.gameTimeArr=[];
+  }
+
+  receiveGameTimeArr($event:number[]) {
+    this.gameTimeArr = $event;
+    console.log(this.gameTimeArr)
+  }
 }

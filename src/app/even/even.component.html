@@ -1,0 +1,7 @@
+ <div class="alert alert-success" role="alert">
+    <p>Even numbers</p>
+    <div *ngFor="let time of gameTimeEvenArr">
+      <p *ngIf="time%2==0" class="centerText">{{time}}</p>
+    </div>
+  </div>
+

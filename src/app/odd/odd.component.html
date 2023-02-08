@@ -1,0 +1,6 @@
+<div class="alert alert-warning" role="alert">
+    <p>Odd numbers</p>
+  <div *ngFor="let time of gameTimeOddArr">
+    <p *ngIf="time%2!==0" class="centerText">{{time}}</p>
+  </div>
+</div>
